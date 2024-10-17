@@ -50,8 +50,8 @@ class people
     {
         $this->typeSex = $typeSex;
     }
-    public function getInfo()
+    public function getInfoPeople()
     {
-        return "Nombre: " . $this->name . " Apellido: " . $this->lastName . " DNI: " . $this->dni . " Email: " . $this->email . " Sexo: " . $this->typeSex;
+        return "Nombre: " . $this->name . "<br> Apellido: " . $this->lastName . "<br> DNI: " . $this->dni . "<br> Email: " . $this->email . "<br> Sexo: " . $this->typeSex;
     }
 }
